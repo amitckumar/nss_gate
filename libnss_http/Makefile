@@ -1,6 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Wstrict-prototypes -Werror -fPIC -std=c99
 
+
 LD_SONAME=-Wl,-soname,libnss_http.so.2
 LIBRARY=libnss_http.so.2.0
 LINKS=libnss_http.so.2 libnss_http.so
